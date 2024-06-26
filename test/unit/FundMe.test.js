@@ -8,7 +8,7 @@ const {developmentChains } = require("../../helper-hardhat-config")
         let fundMe
         let deployer
         let mockV3Aggregator
-        const sendValue = ethers.parseEther("30") // 1 Eth
+        const sendValue = ethers.parseEther("1") // 1 Eth
 
         beforeEach(async function(){
             // deploy our Fund Me contract
